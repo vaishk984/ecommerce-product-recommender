@@ -1,4 +1,4 @@
-# Full-Stack E-commerce Product Recommender 
+# E-commerce Product Recommender 
 
 This project is a complete, full-stack application that provides intelligent, personalized product recommendations. It features a Streamlit web interface, a FastAPI backend, a hybrid recommendation engine, and leverages a Large Language Model (LLM) for generating dynamic, human-like explanations and product summaries.
 
@@ -17,6 +17,11 @@ This project is a complete, full-stack application that provides intelligent, pe
 
 ---
 
+## Video Link
+https://youtu.be/iEnZjNh3F2o?si=HTh-eJE8Mb0gm19z
+
+---
+
 ## Technology Stack
 
 | Component | Technology/Library |
@@ -26,6 +31,12 @@ This project is a complete, full-stack application that provides intelligent, pe
 | **Recommendation Engine** | Pandas, Scikit-learn, Inflect |
 | **LLM Integration** | Groq API (Llama 3.1) |
 | **Database** | SQLite |
+
+---
+
+## Workflow
+
+User → Streamlit UI → FastAPI → Recommender (TF-IDF + Cosine Similarity) → Groq LLM → Response
 
 ---
 
@@ -53,7 +64,7 @@ pip install -r requirements.txt
 
 **4. Add API Key:**
 ```bash
-Get a free API key from Groq.
+Get an API key from Groq.
 Paste the key into the API_KEY variable inside api/llm_handler.py
 ```
 **5. Seed the database:**
