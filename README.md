@@ -40,6 +40,16 @@ User → Streamlit UI → FastAPI → Recommender (TF-IDF + Cosine Similarity) �
 
 ---
 
+## Screenshots
+
+<img width="1919" height="902" alt="Screenshot 2025-10-17 113518" src="https://github.com/user-attachments/assets/08dd51f7-f3d9-4a86-ac11-949c4e2bcac3" />
+
+<img width="1919" height="785" alt="Screenshot 2025-10-17 114147" src="https://github.com/user-attachments/assets/d2442e69-1d5c-417d-bf2e-745c7ffc6606" />
+
+<img width="1919" height="881" alt="Screenshot 2025-10-17 114155" src="https://github.com/user-attachments/assets/b96fd5aa-ccc2-4dc8-8ff5-3dae6eaf5a8c" />
+
+
+
 ## Setup & Run
 
 **1. Clone the repository:**
